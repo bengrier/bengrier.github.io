@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  width:100%;
+  margin:0;
+  font-size:18px;
+  font-family: Optima, sans-serif;
+}
+
+a {
+  text-decoration:none;
+}
+
+#background {
+  background-image:url(images/background/background.png);
+  height:100%;
+  width:100%;
+  margin:0;
+  overflow-y: scroll;
+}
+
+#foreground {
+  background-color:white;
+  max-width:700pt;
+  margin:0 auto;
+  min-height: 100%;
+}
+
+#main {
+  padding: 10pt 50pt 50pt 50pt;
+}
+@media (max-width: 700px) {
+  #main { padding: 10pt 9% 50pt 9%;  }
+}
+
+#header {
+    margin-top: 20pt;
+    width=100%;
+    height=200pt;
+    position:relative;
+}
+
+#header a {
+    font-size: 20pt;
+    color: dimgrey;
+    margin-right: 10pt;
+}
+
+a {
+    color: dodgerblue;
+}
